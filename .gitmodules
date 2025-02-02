@@ -1,0 +1,3 @@
+[submodule "components/Devices/A52sxq"]
+	path = components/Devices/A52sxq
+	url = https://github.com/woa-a52s/windows_oem_samsung_a52sxq
