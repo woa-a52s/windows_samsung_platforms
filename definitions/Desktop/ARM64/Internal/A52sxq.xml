@@ -1,0 +1,117 @@
+<FeatureManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/embedded/2004/10/ImageUpdate" Revision="1" SchemaVersion="1.3">
+  <Drivers>
+    <BaseDriverPackages>
+	  <DriverPackageFile Path="$(mspackageroot)\components\Devices\A52sxq\Drivers\Touch" Name="SamsungA52sxq_FingerTipS556A.inf" ID="SamsungA52sxq_FingerTipS556A"/>
+      <DriverPackageFile Path="$(mspackageroot)\components\Devices\A52sxq\Setup\BypassNRO" Name="BypassNRO.inf" ID="BypassNRO"/>
+	  <DriverPackageFile Path="$(mspackageroot)\components\Devices\A52sxq\Setup\DesktopSetup" Name="desktopsetup.inf" ID="desktopsetup"/>
+      <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\USBFn\Interfaces" Name="ufnserialcomposite.inf" ID="ufnserialcomposite"/> -->
+      <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\USBFn\SuperSpeedFilter" Name="QcUsbFnSsFilter7325.inf" ID="QcUsbFnSsFilter7325"/> -->
+      <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\USB\UCSI" Name="qcusbcucsi7325.inf" ID="qcusbcucsi7325"/> -->
+      <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\Bluetooth\AddVSCRegistry" Name="qcbtaddvscregistry7325.inf" ID="qcbtaddvscregistry7325"/>
+      <DriverPackageFile Path="$(mspackageroot)\components\Devices\A52sxq\Platform\Drivers\Bluetooth\BTFMUART_HSP" Name="qcbtfmuart_hsp7325.inf" ID="qcbtfmuart_hsp7325"/>
+	  <!-- <DriverPackageFile Path="$(mspackageroot)\components\Devices\A52sxq\Platform\Drivers\Graphics\DXKM" Name="qcdx7325.inf" ID="qcdx7325"/> -->
+      <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\Cellular\MBBNetAdapter" Name="qcmbbnetadapter7325.inf" ID="qcmbbnetadapter7325"/>
+      <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\Cellular\RemoteAT" Name="qcremoteat7325.inf" ID="qcremoteat7325"/>
+      <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\Cellular\5GNRCoexistenceManager" Name="qc5gnrcoexmgr7325.inf" ID="qc5gnrcoexmgr7325"/>
+      <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\Cellular\CCID" Name="qcccidbridge7325.inf" ID="qcccidbridge7325"/>
+      <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\Cellular\ModemBridge" Name="qcmbrg7325.inf" ID="qcmbrg7325"/>
+      <!-- <DriverPackageFile Path="$(mspackageroot)\components\Devices\A52sxq\Platform\Drivers\Cellular\IPA" Name="qcipa7325.inf" ID="qcipa7325"/> -->
+	  <DriverPackageFile Path="$(mspackageroot)\components\Devices\A52sxq\Platform\Drivers\Subsystems\CombinedSubsystem" Name="qcsubsys7325.inf" ID="qcsubsys7325"/>
+      <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\Cellular\DiagRouter" Name="qcdiagrouter7325.inf" ID="qcdiagrouter7325"/>
+      <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\Cellular\DPL" Name="qcdplbridge7325.inf" ID="qcdplbridge7325"/>
+      <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\Cellular\DeepStandby" Name="qcdeepstandbymdm7325.inf" ID="qcdeepstandbymdm7325"/>
+      <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\Cellular\RmnetBridge" Name="qcrmnetbridge7325.inf" ID="qcrmnetbridge7325"/>
+      <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\Cellular\RemoteFS" Name="qcremotefs7325.inf" ID="qcremotefs7325"/>
+      <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\Cellular\DiagBridge" Name="QCDiagBridge.inf" ID="QCDiagBridge"/>
+      <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\Cellular\DiagCSI" Name="qcdiagcsi7325.inf" ID="qcdiagcsi7325"/>
+      <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\Cellular\ThermalMDM" Name="qcthermalmdm7325.inf" ID="qcthermalmdm7325"/>
+      <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\Cellular\IPCRouter" Name="qcipcrouter7325.inf" ID="qcipcrouter7325"/>
+      <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\Shutdown" Name="qcshutdownsvc.inf" ID="qcshutdownsvc"/>
+      <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\Battery\BatteryCurrentLimiter" Name="qcfgbcl7325.inf" ID="qcfgbcl7325"/>
+	  <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\Audio\ADCM" Name="qcadcm7325.inf" ID="qcadcm7325"/>
+	  <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\Audio\AudMiniport" Name="qcaudminiport_Base7325.inf" ID="qcaudminiport_Base7325"/>
+	  <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\Audio\Device" Name="qcaucd7325.inf" ID="qcaucd7325"/>
+      <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\Audio\ListenSoundModel" Name="QCListenSM_swc7325.inf" ID="QCListenSM_swc7325"/>
+      <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\Audio\RPC\ADSPRPC" Name="qcadsprpc7325.inf" ID="qcadsprpc7325"/>
+      <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\Audio\RPC\ADSPRPCD" Name="qcadsprpcd7325.inf" ID="qcadsprpcd7325"/>
+      <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\Audio\SlimBus" Name="qcslimbus7325.inf" ID="qcslimbus7325"/>
+      <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\Camera\AuxiliarySensor" Name="qccamauxsensor7325.inf" ID="qccamauxsensor7325"/>
+      <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\Camera\ISP" Name="qccamisp7325.inf" ID="qccamisp7325"/>
+      <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\Camera\Flash" Name="qccamflash7325.inf" ID="qccamflash7325"/>
+      <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\Camera\FrontSensor" Name="qccamfrontsensor7325.inf" ID="qccamfrontsensor7325"/>
+      <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\Camera\MIPICSI" Name="qccammipicsi7325.inf" ID="qccammipicsi7325"/>
+      <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\Camera\AVStream" Name="qccamavs7325.inf" ID="qccamavs7325"/>
+      <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\Camera\Platform" Name="qccamplatform7325.inf" ID="qccamplatform7325"/>
+	  <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\Camera\JPEGEncoder" Name="qccamjpege7325.inf" ID="qccamjpege7325"/>
+      <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\USBHost" Name="QcXhciFilter7325.inf" ID="QcXhciFilter7325"/>
+      <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\GPS" Name="qcgnss7325.inf" ID="qcgnss7325"/>
+      <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\SOC\Provisioning" Name="QcSOCPartition.inf" ID="QcSOCPartition"/>
+      <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\SOC\GPIO" Name="qcgpio7325.inf" ID="qcgpio7325"/>
+      <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\SOC\ResetPower\CrashDumpInjector" Name="qccdi7325.inf" ID="qccdi7325"/>
+      <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\SOC\ResetPower\ResetProtectionEnabler" Name="qcrpen.inf" ID="qcrpen"/>
+      <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\SOC\UART" Name="qcuart7325.inf" ID="qcuart7325"/>
+      <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\SOC\ACPI" Name="qcabd.inf" ID="qcabd"/>
+      <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\SOC\HexagonLoader\PIL" Name="qcpil.inf" ID="qcpil"/>
+      <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\SOC\HexagonLoader\SecureKernel" Name="QcSkExt7325.inf" ID="QcSkExt7325"/>
+      <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\SOC\PowerManagement" Name="qcpep.wd7325.inf" ID="qcpep.wd7325"/>
+      <DriverPackageFile Path="$(mspackageroot)\components\Devices\A52sxq\Platform\Drivers\SOC\TrEE" Name="QcTrEE.inf" ID="QcTrEE"/>
+      <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\SOC\Buses\GLINK" Name="qcglink7325.inf" ID="qcglink7325"/>
+      <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\SOC\Buses\GPI" Name="qcgpi7325.inf" ID="qcgpi7325"/>
+      <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\SOC\PMIC\GPIO" Name="qcpmicgpio7325.inf" ID="qcpmicgpio7325"/>
+      <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\SOC\PMIC\Core" Name="qcpmic7325.inf" ID="qcpmic7325"/>
+      <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\SOC\PMIC\Apps" Name="QcPmicApps7325.inf" ID="QcPmicApps7325"/>
+	  <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\SOC\PMIC\GLINK" Name="QcPmicGlink7325.inf" ID="QcPmicGlink7325"/>
+      <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\SOC\PCIe" Name="qcppx7325.inf" ID="qcppx7325"/>
+      <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\SOC\I2C" Name="qci2c7325.inf" ID="qci2c7325"/>
+	  <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\SOC\SPI" Name="qcspi7325.inf" ID="qcspi7325"/>
+      <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\SOC\System\BusAccessModule" Name="qckmbam7325.inf" ID="qckmbam7325"/>
+      <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\SOC\System\IPCC" Name="qcipcc7325.inf" ID="qcipcc7325"/>
+      <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\SOC\System\SCM" Name="qcscm.inf" ID="qcscm"/>
+      <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\SOC\System\SPMI" Name="qcspmi7325.inf" ID="qcspmi7325"/>
+      <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\SOC\System\CacheController" Name="qcsyscache7325.inf" ID="qcsyscache7325"/>
+      <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\SOC\System\VoltageCurrentMonitoring" Name="qcadc7325.inf" ID="qcadc7325"/>
+      <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\SOC\System\AutoReg" Name="qcpsautoreg7325.inf" ID="qcpsautoreg7325"/>
+      <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\SOC\System\Transports" Name="QcTftpKmdf.inf" ID="QcTftpKmdf"/>
+      <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\SOC\System\SecApp" Name="qcsecapp.inf" ID="qcsecapp"/>
+      <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\SOC\System\SMMU" Name="qcsmmu7325.inf" ID="qcsmmu7325"/>
+      <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\SOC\IOMMU" Name="qciommu.inf" ID="qciommu"/>
+      <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\Subsystems\ProtectionDomainServiceRegistry" Name="qcpdsr.inf" ID="qcpdsr"/>
+      <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\Subsystems\ThermalMgr" Name="qcSubsysThermalMgr.inf" ID="qcSubsysThermalMgr"/>
+      <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\Sensors\SSC" Name="qcSensors.inf" ID="qcSensors"/>
+      <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\HALs\WatchDog" Name="HalExtQCWdogTimer7325.inf" ID="HalExtQCWdogTimer7325"/> -->
+      <DriverPackageFile Path="$(mspackageroot)\components\Devices\A52sxq\Platform\Drivers\WLAN\Core" Name="qcwlan7325.inf" ID="qcwlan7325"/>
+      <DriverPackageFile Path="$(mspackageroot)\components\Devices\A52sxq\Platform\Extensions\HexagonLoader\PIL" Name="qcpilEXT7325.inf" ID="qcpilEXT7325"/>
+	  <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Extensions\HexagonLoader\PILFilter" Name="qcpilfilterext.inf" ID="qcpilfilterext"/>
+      <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Extensions\Bluetooth\BTFMUART_HSP" Name="qcbtfmuart_ext7325.inf" ID="qcbtfmuart_ext7325"/>
+      <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Extensions\Cellular\MBBNetAdapter" Name="qcmbbnetadapter_ext7325.inf" ID="qcmbbnetadapter_ext7325"/>
+      <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Extensions\Cellular\5GNRCoexistenceManager" Name="qc5gnrcoexmgr_ext7325.inf" ID="qc5gnrcoexmgr_ext7325"/>
+      <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Extensions\Cellular\IPA" Name="qcipaext7325.inf" ID="qcipaext7325"/>
+      <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Extensions\Graphics\DXKM" Name="qcdxext_idp7325.inf" ID="qcdxext_idp7325"/>
+      <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Extensions\Audio\ACDB" Name="qcacsp_idp7325.inf" ID="qcacsp_idp7325"/>
+      <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Extensions\Audio\AudMiniport" Name="qcaudminiportIDP_Extension7325.inf" ID="qcaudminiportIDP_Extension7325"/>
+      <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Extensions\Audio\Device" Name="qcaucd_ext_idp7325.inf" ID="qcaucd_ext_idp7325"/>
+      <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Extensions\Audio\ListenSoundModel\Calibration" Name="QCListenSM_swc_ext7325.inf" ID="QCListenSM_swc_ext7325"/>
+      <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Extensions\Audio\ListenSoundModel\ComponentExtension" Name="QCListenSM7325.inf" ID="QCListenSM7325"/>
+      <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Extensions\Camera\ISP" Name="qccamisp_ext7325.inf" ID="qccamisp_ext7325"/>
+      <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Extensions\Camera\JPEGEncoder" Name="qccamjpege_ext7325.inf" ID="qccamjpege_ext7325"/>
+      <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Extensions\Camera\AuxilarySensor" Name="qccamauxsensor_extension7325.inf" ID="qccamauxsensor_extension7325"/>
+      <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Extensions\Camera\MIPICSI" Name="qccammipicsi_ext7325.inf" ID="qccammipicsi_ext7325"/>
+      <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Extensions\Camera\AVStream" Name="qccamavs_ext7325.inf" ID="qccamavs_ext7325"/>
+      <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Extensions\Camera\Platform" Name="qccamplatform_ext7325.inf" ID="qccamplatform_ext7325"/>
+	  <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Extensions\Camera\FrontCamera" Name="qccamfrontsensor_extension7325.inf" ID="qccamfrontsensor_extension7325"/>
+      <DriverPackageFile Path="$(mspackageroot)\components\Devices\A52sxq\Platform\Extensions\SOC\TrEE\QCOM" Name="QcTreeExtQcom7325.inf" ID="QcTreeExtQcom7325"/>
+      <DriverPackageFile Path="$(mspackageroot)\components\Devices\A52sxq\Platform\Extensions\SOC\TrEE\OEM" Name="QcTreeExtOem7325.inf" ID="QcTreeExtOem7325"/>
+      <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Extensions\SOC\IOMMU" Name="qciommuext7325.inf" ID="qciommuext7325"/>
+      <DriverPackageFile Path="$(mspackageroot)\components\Devices\A52sxq\Platform\Extensions\Subsystems\Modem" Name="qcsubsys_ext_mpss7325.inf" ID="qcsubsys_ext_mpss7325"/>
+      <DriverPackageFile Path="$(mspackageroot)\components\Devices\A52sxq\Platform\Extensions\Subsystems\ModemConfig" Name="mcfg_subsys_ext7325.inf" ID="mcfg_subsys_ext7325"/>
+      <DriverPackageFile Path="$(mspackageroot)\components\Devices\A52sxq\Platform\Extensions\Subsystems\Audio" Name="qcsubsys_ext_adsp7325.inf" ID="qcsubsys_ext_adsp7325"/>
+      <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Extensions\Subsystems\WPSS" Name="qcsubsys_ext_wpss7325.inf" ID="qcsubsys_ext_wpss7325"/>
+      <DriverPackageFile Path="$(mspackageroot)\components\Devices\A52sxq\Platform\Extensions\Subsystems\Compute" Name="qcsubsys_ext_cdsp7325.inf" ID="qcsubsys_ext_cdsp7325"/>
+      <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Extensions\PMIC\Core" Name="qcpmicext7325.inf" ID="qcpmicext7325"/>
+      <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Extensions\PMIC\BatteryCurrentLimiter" Name="qcfgbclext7325.inf" ID="qcfgbclext7325"/>
+      <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Extensions\Sensors\QRD" Name="qcSensorsConfig7325.inf" ID="qcSensorsConfig7325"/>
+      <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Extensions\WLAN\WPSS" Name="qcwlan_ext_wpss7325.inf" ID="qcwlan_ext_wpss7325"/>
+      <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Extensions\WLAN\WLAN" Name="qcwlan_ext7325.inf" ID="qcwlan_ext7325"/>
+    </BaseDriverPackages>
+  </Drivers>
+</FeatureManifest>
