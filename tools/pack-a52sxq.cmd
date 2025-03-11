@@ -16,6 +16,7 @@ echo set /P DrivePath=Enter Drive letter ^^^(with the colon!^^^) of the connecte
 echo .\tools\DriverUpdater\%%PROCESSOR_ARCHITECTURE%%\DriverUpdater.exe -r . -d .\definitions\Desktop\ARM64\Internal\A52sxq.xml -p %%DrivePath%% >> ..\OfflineUpdater.cmd
 echo pause >> ..\OfflineUpdater.cmd
 
+echo components\ANYSOC >> filelist_a52sxq.txt
 echo components\Devices\A52sxq >> filelist_a52sxq.txt
 echo components\QC7325 >> filelist_a52sxq.txt
 echo definitions\Desktop\ARM64\Internal\A52sxq.xml >> filelist_a52sxq.txt
